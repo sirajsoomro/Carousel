@@ -1,9 +1,9 @@
 let divDis = document.getElementById('imagetag');
-let linkDis = ['01.jpg' , '02.jpg' , 'download (1).jpeg'];
+let linkDis = ['images/01.jpg' , 'images/02.jpg' , 'images/03.jpeg' , 'images/04.jpg'];
 let count = 0;
 
 function fun() {
-    if(count > 2){
+    if(count > 3){
         count = 0
     }
     divDis.setAttribute('src' , linkDis[count])
